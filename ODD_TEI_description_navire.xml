@@ -3,8 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Edition encodée et enrichie du livre "Collection de plans ou Dessins de navires et de bateaux anciens et modernes, existants ou disparus : avec les éléments numériques nécessaires à leur construction" </title>
-            <author> Maddalena Accardo</author>
+            <title>Édition encodée et enrichie du livre "Collection de plans ou Dessins de navires et de bateaux anciens
+               et modernes, existants ou disparus : avec les éléments numériques nécessaires à leur construction"</title>
+            <author>Maddalena Accardo</author>
          </titleStmt>
          <publicationStmt>
             <publisher>
@@ -15,17 +16,23 @@
             <date when-iso="2024-01-31" type="date-de-rendu">31 janvier 2024</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 3 files in file:/C:/Users/madda/OneDrive/Bureau/projet_TEI/</p>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref>
+               after an analysis of 3 files in file:/C:/Users/madda/OneDrive/Bureau/projet_TEI/</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
          <div1>
-            <head> Édition enrichie numérique des <emph>Collection de plans ou Dessins de navires et de bateaux anciens et modernes, existants ou disparus : avec les éléments numériques nécessaires à leur construction</emph> du vice amiral Edmond Pâris.</head>
+            <head>Édition enrichie numérique des <emph>Collection de plans ou Dessins de navires et de bateaux anciens et
+               modernes, existants ou disparus : avec les éléments numériques nécessaires à leur construction</emph> du
+               vice amiral Edmond Pâris.</head>
             <div2>
                <head>Présentation du support</head>
-               <p> Le livre commente la structure des navires les plus performants du 17e, au 18e et au début du 19e afin de donner les informations nécessaires aux ingénieurs de marine de la fin du 19e qui souhaitent étudier les anciens modèles. Cet ouvrage suit une vocation à la fois historique et scientifique puisque l'auteur fournit :
+               <p>Le livre commente la structure des navires les plus performants du 17e, au 18e et au début du 19e afin
+                  de donner les informations nécessaires aux ingénieurs de marine de la fin du 19e qui souhaitent étudier
+                  les anciens modèles. Cet ouvrage suit une vocation à la fois historique et scientifique puisque l'auteur
+                  fournit :
                   <list>
                      <item>des informations concernant les différents types de navire existants</item>
                      <item>des détails généraux relatifs à la vie à bord du navire</item>
@@ -33,19 +40,37 @@
                      <item>des détails relatifs à la géographie d'un navire (tous les endroits où l'être humain peut se rendre)</item>
                      <item>des précisions mathématiques sur les mesures d'un navire.</item>
                   </list></p>
-               <p>Néanmoins, ce texte se révèle ardu à décrypter, non seulement en raison de la précision technique inhérente au lexique maritime, mais également du fait de la richesse lexicale qui rend les phrases particulièrement énigmatiques. De plus, les tournures de phrases sont parfois complexes, et le vocabulaire -parfois archaïque- complexifie davantage la lecture. </p>
+               <p>Néanmoins, ce texte se révèle ardu à décrypter, non seulement en raison de la précision technique
+                  inhérente au lexique maritime, mais également du fait de la richesse lexicale qui rend les phrases
+                  particulièrement énigmatiques. De plus, les tournures de phrases sont parfois complexes, et le vocabulaire
+                  -parfois archaïque- complexifie davantage la lecture.</p>
             </div2>
 
             <div2>
                <head>Présentation du projet et ses exploitations possibles</head>
-               <p>L'objectif de cet encodage est de mettre en évidence le vocabulaire spécifique au moyen d'un index, tout en fournissant les définitions appropriées des termes. Cette approche permettra de comprendre la structure physique du navire en identifiant ses composants et les divers emplacements accessibles. Ainsi, elle facilite l'accès au lexique naval, visant l'excellence dans la compréhension des éléments maritimes.</p>
-               <p>Cette démarche de codification avancée du vocabulaire maritime, assortie d'un index détaillé et de définitions précises, pourrait potentiellement faciliter la recherche en fournissant un outil exhaustif aux chercheurs, historiens et passionnés de l'histoire navale. En permettant une compréhension approfondie des termes spécialisés, elle pourrait éclairer de manière inédite les études portant sur la construction navale du 19e siècle. De plus, cette approche innovante pourrait contribuer à la préservation et à la diffusion du patrimoine maritime en rendant ce savoir plus accessible à un public varié.</p>
+               <p>L'objectif de cet encodage est de mettre en évidence le vocabulaire spécifique au moyen d'un index,
+                  tout en fournissant les définitions appropriées des termes. Cette approche permettra de comprendre
+                  la structure physique du navire en identifiant ses composants et les divers emplacements accessibles.
+                  Ainsi, elle facilite l'accès au lexique naval, visant l'excellence dans la compréhension des éléments
+                  maritimes.</p>
+               <p>Cette démarche de codification avancée du vocabulaire maritime, assortie d'un index détaillé et de
+                  définitions précises, pourrait potentiellement faciliter la recherche en fournissant un outil exhaustif
+                  aux chercheurs, historiens et passionnés de l'histoire navale. En permettant une compréhension approfondie
+                  des termes spécialisés, elle pourrait éclairer de manière inédite les études portant sur la construction
+                  navale du 19e siècle. De plus, cette approche innovante pourrait contribuer à la préservation et à la
+                  diffusion du patrimoine maritime en rendant ce savoir plus accessible à un public varié.</p>
                <p>Par conséquent, le choix a été fait d'encoder tous les mots qui désignent :
                   <list>
-                     <item>- un endroit précis sur le navire ; le terme <emph>endroit</emph> étant compris comme un emplacement, des lieux où on peut aller (comme la mâture ou le pont d'un navire)</item>
-                     <item>- un composant du navire, c'est-à-dire une pièce particulière qui compose le navire. Cette décision vise à faciliter la compréhension de la structure physique d'un bâtiment naval.</item>
-                     <item>- les types de navires évoqués. Cela permettra non seulement de disposer du vocabulaire concernant la structure d'un bâtiment, mais également de savoir à quel type de navire ils s'appliquent.</item>
-                     <item>- le nom des navires étudiés dans l'ouvrage. Ce choix est justifié par la volonté de conserver l'aspect historique de l'ouvrage, en développant les informations propres aux navires pris comme exemple dans l'ouvrage par l'amiral Edmond Pâris, lesdits navires étant des références en terme d'histoire maritime.</item>
+                     <item>- un endroit précis sur le navire ; le terme <emph>endroit</emph> étant compris comme un emplacement,
+                        des lieux où on peut aller (comme la mâture ou le pont d'un navire)</item>
+                     <item>- un composant du navire, c'est-à-dire une pièce particulière qui compose le navire. Cette
+                        décision vise à faciliter la compréhension de la structure physique d'un bâtiment naval.</item>
+                     <item>- les types de navires évoqués. Cela permettra non seulement de disposer du vocabulaire
+                        concernant la structure d'un bâtiment, mais également de savoir à quel type de navire ils s'appliquent.</item>
+                     <item>- le nom des navires étudiés dans l'ouvrage. Ce choix est justifié par la volonté de conserver
+                        l'aspect historique de l'ouvrage, en développant les informations propres aux navires pris comme
+                        exemple dans l'ouvrage par l'amiral Edmond Pâris, lesdits navires étant des références en terme
+                        d'histoire maritime.</item>
                   </list>
                </p>
             </div2>
@@ -54,35 +79,60 @@
                <head>Méthodologie d'encodage</head>
                <div3>
                   <head>les éléments qui n'ont pas été encodés et pourquoi :</head>
-                  <p> Plusieurs éléments n'ont pas été encodé ; parmi eux la mise en page et l'écriture en elle-même. Puisque tout l'intérêt du livre résidait dans l'encodage du vocabulaire maritime, cela était secondaire, et donc n'a pas été traité. Cela implique :
+                  <p> Plusieurs éléments n'ont pas été encodé ; parmi eux la mise en page et l'écriture en elle-même.
+                     Puisque tout l'intérêt du livre résidait dans l'encodage du vocabulaire maritime, cela était secondaire,
+                     et donc n'a pas été traité. Cela implique :
                      <list>
-                        <item>- une modernisation de la ponctuation utilisée pour permettre davantage de clarté lorsque les phrases sont trop longues et peu claires</item>
-                        <item>- une réorganisation de la mise en page. Le texte de base se présente sous forme de deux colonnes sur une seule page. Le choix ici a été fait de ne pas conserver cette structure en colonne, et de présenter la structure avec les extraits encapsulés dans des div, elles-mêmes divisées en paragraphes. Les paragraphes du texte original sont restés identiques. </item>
+                        <item>- une modernisation de la ponctuation utilisée pour permettre davantage de clarté lorsque
+                           les phrases sont trop longues et peu claires</item>
+                        <item>- une réorganisation de la mise en page. Le texte de base se présente sous forme de deux
+                           colonnes sur une seule page. Le choix ici a été fait de ne pas conserver cette structure en
+                           colonne, et de présenter la structure avec les extraits encapsulés dans des div, elles-mêmes
+                           divisées en paragraphes. Les paragraphes du texte original sont restés identiques.</item>
                         <item>- l'espace entre les mots et les virgules est modernisé</item>
                         <item>- les tirets pour les coupures de mot en fin de phrase ont été enlevés</item>
-                        <item>- la notation des mesures a été normalisée et écrit suivant ces exemple : <emph>1 m 50</emph> pour les distances mesurables, <emph>1,50</emph> pour les rapports ou les distances non-mesurables.</item>
+                        <item>- la notation des mesures a été normalisée et écrit suivant ces exemples : <emph>1 m 50</emph>
+                           pour les distances mesurables, <emph>1,50</emph> pour les rapports ou les distances non-mesurables.</item>
                      </list></p>
 
-                  <p>La <emph>notation des mesures</emph> comme partie à part entière du projet d'encodage a été un temps envisagé, puis finalement abandonné, au profit de la conception de l'index. Il a semblé plus intéressant de paufiner les définitions, qui offrent un enrichissement certains, que de clarifier les informations relevant du type de mesure.</p>
+                  <p>La <emph>notation des mesures</emph> comme partie à part entière du projet d'encodage a été un temps
+                     envisagé, puis finalement abandonné, au profit de la conception de l'index. Il a semblé plus
+                     intéressant de peaufiner les définitions, qui offrent un enrichissement certain, que de clarifier
+                     les informations relevant du type de mesure.</p>
 
-                  <p>Enfin, dernière remarque concernant les éléments envisagés qui n'ont finalement pas été traité : le <emph>teiHeader</emph>. Si au début le projet visait à faire figurer toutes les définitions dans le teiHeader, il n'a pas été retenu, car seul les noms des navires et les noms des endroits pouvaient y figurer. Les noms des composants, encodés avec la balise <gi>objectName</gi>, ne pouvaient apparaître que dans la section <gi>sourceDesc</gi>, et plus particulièrement l'élément <gi>biblFull</gi>, qui est normalement destiné aux informations relatives à l'aspect physique du document encodé, ce qui ne convenait pas à l'usage sémantique des balises <gi>objectName</gi> utilisée dans ce contexte pour nommer des éléments évoqués dans le texte. Une autre solution était de faire figurer l'élément <gi>objectName</gi> dans <gi>setting</gi> (retrouver le chemin complet), à la suite des noms d'endroits, mais la balise n'était pas acceptée. Le choix a été alors fait de réunir tous les éléments indexés dans la balise <gi>standOff</gi>, hors du <gi>teiHeader</gi>.
+                  <p>Enfin, dernière remarque concernant les éléments envisagés qui n'ont finalement pas été traité :
+                     le <emph>teiHeader</emph>. Si au début le projet visait à faire figurer toutes les définitions
+                     dans le teiHeader, il n'a pas été retenu, car seuls les noms des navires et les noms des endroits
+                     pouvaient y figurer. Les noms des composants, encodés avec la balise <gi>objectName</gi>, ne
+                     pouvaient apparaître que dans la section <gi>sourceDesc</gi>, et plus particulièrement l'élément
+                     <gi>biblFull</gi>, qui est normalement destiné aux informations relatives à l'aspect physique du
+                     document encodé, ce qui ne convenait pas à l'usage sémantique des balises <gi>objectName</gi>
+                     utilisée dans ce contexte pour nommer des éléments évoqués dans le texte. Une autre solution était
+                     de faire figurer l'élément <gi>objectName</gi> dans <gi>setting</gi> (retrouver le chemin complet),
+                     à la suite des noms d'endroits, mais la balise n'était pas acceptée. Le choix a été alors fait de
+                     réunir tous les éléments indexés dans la balise <gi>standOff</gi>, hors du <gi>teiHeader</gi>.
                   </p>
                </div3>
                <div3>
                   <head>Les outils utilisés pour fournir les définitions des termes maritimes</head>
                   <p>
-                     De nombreux glossaires en lignes relatifs au vocabulaire maritimes ont été utilisés pour enrichir cette édition. Au-delà de l'utilisation de wikipédia, les sites en question utilisés pour trouver les définitions sont les suivants :
+                     De nombreux glossaires en lignes relatifs au vocabulaire maritimes ont été utilisés pour enrichir
+                     cette édition. Au-delà de l'utilisation de wikipédia, les sites en question utilisés pour trouver
+                     les définitions sont les suivants :
                      <list>
-                        <item>le glossaire de l'architecture navale ancienne<link target="https://architecture-navale-ancienne.com/glossaire/"/></item>
+                        <item>le glossaire de l'architecture navale ancienne <link target="https://architecture-navale-ancienne.com/glossaire/"/></item>
                         <item>le glossaire du site Arwen marine <link target="https://www.arwenmarine.com/GlossaireT.html"/></item>
-                        <item>le glossaire du site Alabordage<link target="https://www.alabordage.fr/blog/termes-bateaux-patrimoine-maritime/"/></item>
+                        <item>le glossaire du site Alabordage <link target="https://www.alabordage.fr/blog/termes-bateaux-patrimoine-maritime/"/></item>
                      </list>
-                     Bien sûr, un même terme dispose d'une richesse sémantique qui appelle une étude précise du contexte dans lequel il est utilisé pour pouvoir sélectionner la définition adéquate. Chaque mot encodé necessite donc de prendre le temps d'une certaine réflexion pour savoir quelle balise est appropriée.
+                     Bien sûr, un même terme dispose d'une richesse sémantique qui appelle une étude précise du contexte
+                     dans lequel il est utilisé pour pouvoir sélectionner la définition adéquate. Chaque mot encodé
+                     nécessite donc de prendre le temps d'une certaine réflexion pour savoir quelle balise est appropriée.
                   </p>
                </div3>
                <div3>
                   <head>le choix des éléments à encoder et leurs balises correspondantes</head>
-                  <p>Le document est <emph>TEI-conformant</emph> : il est conforme aux principes de la TEI, et la présente ODD est donc une spécification des <emph>TEI guidelines</emph>.</p>
+                  <p>Le document est <emph>TEI-conformant</emph> : il est conforme aux principes de la TEI, et la présente
+                     ODD est donc une spécification des <emph>TEI guidelines</emph>.</p>
 
                   <!-- description du teiHeader -->
                   <div4>
@@ -94,40 +144,63 @@
                         <specDesc key="revisionDesc"/>
                      </specList></p>
 
-                     <p>Le <gi>fileDesc</gi> est lui-même composé de quatre parties : <specList>
-                        <specDesc key="titleStmt"/>
-                        <specDesc key="editionStmt"/>
-                        <specDesc key="publicationStmt"/>
-                        <specDesc key="sourceDesc"/>
-                     </specList>.
+                     <p>Le <gi>fileDesc</gi> est lui-même composé de quatre parties :
+                        <specList>
+                           <specDesc key="titleStmt"/>
+                           <specDesc key="editionStmt"/>
+                           <specDesc key="publicationStmt"/>
+                           <specDesc key="sourceDesc"/>
+                        </specList>.
+                        Le <gi>titleStmt</gi> fournit les métadonnées concernant le titre du document et son auteur, dont
+                        le rôle militaire, le prénom, le nom et la fiche BNF sont identifiés.
+                        La balise <gi>editionStmt</gi> apporte des informations sur l'édition, en utilisant notamment les
+                        balises <gi>edition</gi> pour informer que l'encodage a été réalisé dans le cadre d'un cours en
+                        2024, et la balise <gi>respStmt</gi> qui identifie l'encodeur responsable de l'encodage, avec son
+                        prénom et son nom. L'attribut xml:id est utilisé pour une identification unique de l'encodeur en
+                        question.
+                        La balise <gi>publicationStmt</gi> apporte des informations sur la publication numérique du document,
+                        grâce aux éléments <gi>publisher</gi>, qui spécifie le nom de l'éditeur -en l'occurrence les
+                        éditions en ligne de Gallica, et <gi>pubPlace</gi> qui indique la ville de publication (Paris)
+                        ainsi que la date de publication (dans ce contexte, de mise en ligne puisqu'il s'agit d'une édition
+                        numérique). Les informations relatives à la licence de domaine public sont également fournies.
+                        La balise <gi>sourceDesc</gi> contient quant à elle des informations bibliographiques détaillées
+                        sur la source originale énumérées dans la balise <gi>biblFull</gi>. Cette balise permet de contenir
+                        un grand nombre d'informations relatives, d'où ce choix. On y trouve le titre de la source avec
+                        l'élément <gi>title</gi>, l'auteur de la source avec l'élément <gi>author</gi>, mais également
+                        des informations sur la publication originale de la source grâce à une section <gi>publicationStmt</gi>
+                        dans laquelle est présenté l'éditeur original grâce à la balise <gi>publisher</gi>, la date de
+                        publication, et la licence.</p>
 
+                     <p>Le <gi>profileDesc</gi> est composé d'une seule partie :
+                        <specList>
+                           <specDesc key="creation"/>
+                        </specList> qui apporte des informations relatives à la création du document par le biais de
+                        l'élément <gi>creation</gi>, lui-même contenant l'élément <gi>date</gi> et <gi>country</gi> qui
+                        donnent respectivement la date de création du document encodé et le pays de création du document
+                        encodé.</p>
 
-                        Le <gi>titleStmt</gi> fournit les métadonnées concernant le titre du document et son auteur, dont le rôle militaire, le prénom, le nom et la fiche BNF sont identifiés.
-                        La balise <gi>editionStmt</gi> apporte des informations sur l'édition, en utilisant notamment les balises <gi>edition</gi> pour informer que  l'encodage a été réalisé dans le cadre d'un cours en 2024, et la balise <gi>respStmt</gi> qui identifie l'encodeur responsable de l'encodage, avec son prénom et son nom. L'attribut xml:id est utilisé pour une identification unique de l'encodeur en question.
+                     <p>L'<gi>encodingDesc</gi> est lui aussi composé d'une seule partie :
+                        <specList>
+                           <specDesc key="projectDesc"/>
+                        </specList> qui consiste à décrire rapidement le projet d'encodage, en évoquant la source utilisée,
+                        les modifications apportées au texte transcrit et l'objectif du projet.</p>
 
-                        La balise <gi>publicationStmt</gi> apporte des informations sur la publication numérique du document, grâce aux éléments <gi>publisher</gi>, qui spécifie le nom de l'éditeur -en l'occurrence les éditions en ligne de Gallica, et <gi>pubPlace</gi> qui indique la ville de publication (Paris) ainsi que la date de publication (dans ce contexte, de mise en ligne puisqu'il s'agit d'une édition numérique). Les informations relatives à la licence de domaine public sont également fournies.
-
-                        La balise <gi>sourceDesc</gi> contient quant à elle des informations bibliographiques détaillées sur la source originale énumérées dans la balise <gi>biblFull</gi>. Cette balise permet de contenir un grand nombre d'informations relatives, d'où ce choix. On y trouve le titre de la source avec l'élément <gi>title</gi>, l'auteur de la source avec l'élément <gi>author</gi>, mais également des informations sur la publication originale de la source grâce à une section <gi>publicationStmt</gi> dans laquel est présenté l'éditeur original grâce à la balise <gi>publisher</gi>, la date de publication, et la licence.</p>
-
-                     <p>Le <gi>profileDesc</gi> est composé d'une seule partie : <specList>
-                        <specDesc key="creation"/>
-                     </specList> qui apporte des informations relatives à la création du document par le biais de l'élément <gi>creation</gi>, lui même contenant l'élément <gi>date</gi> et <gi>country</gi> qui donnent respectivement la date de création du document encodé et le pays de création du document encodé.</p>
-
-                     <p>L'<gi>encodingDesc</gi> est lui aussi composé d'une seule partie : <specList>
-                        <specDesc key="projectDesc"/>
-                     </specList> qui consiste à décrire rapidement le projet d'encodage, en évoquant la source utilisée, les modifications apportées au texte transcrit et l'objectif du projet.</p>
-
-                     <p>L'élément <gi>revisionDesc</gi> est lui aussi est composé d'une seule partie : <specList>
-                        <specDesc key="change"/>
-                     </specList>. Destiné à conserver l'historique des modifications, il donne des informations sur les modifications apportées, y compris la date et l'encodeur responsable.
+                     <p>L'élément <gi>revisionDesc</gi> est lui aussi est composé d'une seule partie :
+                        <specList>
+                           <specDesc key="change"/>
+                        </specList>. Destiné à conserver l'historique des modifications, il donne des informations sur
+                        les modifications apportées, y compris la date et l'encodeur responsable.
                      </p>
                   </div4>
 
                   <!-- description de l'index -->
                   <div4>
                      <head>encoder l'index : StandOff</head>
-                     <p>Le choix de la balise standOff s'explique parce qu'elle permet de contenir toutes les listes de vocabulaire recensé. Rappelons que <gi>standOff</gi> fonctionne comme un contenant pour des liens ou des informations contextuelles ou rajoutées par l'encodeur lors de la création du document TEI, d'où ce choix.
-                        En effet, quatres grandes sections sont privilégiées dans l'encodage. Rappelons-les :
+                     <p>Le choix de la balise standOff s'explique parce qu'elle permet de contenir toutes les listes de
+                        vocabulaire recensé. Rappelons que <gi>standOff</gi> fonctionne comme un contenant pour des liens
+                        ou des informations contextuelles ou rajoutées par l'encodeur lors de la création du document TEI,
+                        d'où ce choix.
+                        En effet, quatre grandes sections sont privilégiées dans l'encodage. Rappelons-les :
                         <list>
                            <item>- un endroit précis sur le navire</item>
                            <item>- un composant du navire, c'est-à-dire une pièce particulière qui compose le navire</item>
@@ -135,19 +208,29 @@
                            <item>- le nom des navires étudiés dans l'ouvrage</item>
                         </list>
 
-                        Ces quatre sections sont retranscrites dans la balise <gi>standOff</gi> grâce aux balises suivantes : <specList>
+                        Ces quatre sections sont retranscrites dans la balise <gi>standOff</gi> grâce aux balises suivantes :
+                        <specList>
                            <specDesc key="listPerson"/>
                            <specDesc key="listPlace"/>
                            <specDesc key="listObject"/>
                            <specDesc key="listObject"/>
                         </specList>.</p>
 
-                     <p>La première partie, <gi>listPerson</gi> est utilisée pour regrouper et annoter les noms de navires. Elle contient des balises <gi>person</gi> qui renvoient à une entité navire, enrichit d'un attribut <gi>xml:id</gi> pour générer un identifiant unique permettant de référencer le nom du navire. L'élément <gi>person</gi> contient lui-même trois balises : <specList>
-                        <specDesc key="name"/>
-                        <specDesc key="birth"/>
-                        <specDesc key="note"/>
-                     </specList>.
-                        La balise <gi>name</gi> contient le nom du navire ainsi que des attributs <gi>type</gi>, qui indique à quelle flotte il appartient, et <gi>subtype</gi> qui renseigne le type de navire dont il s'agit. La balise <gi>birth</gi> renseigne la date de naissance du navire, c'est-à-dire sa date de fin de construction et de mise à flot. La dernière balise, <gi>note</gi>, donne la définition du terme, comme l'indique l'attribut <gi>type</gi> qui rappelle que les éléments remplis relèvent d'informations complémentaires.
+                     <p>La première partie, <gi>listPerson</gi> est utilisée pour regrouper et annoter les noms de navires.
+                        Elle contient des balises <gi>person</gi> qui renvoient à une entité navire, enrichit d'un attribut
+                        <gi>xml:id</gi> pour générer un identifiant unique permettant de référencer le nom du navire.
+                        L'élément <gi>person</gi> contient lui-même trois balises :
+                        <specList>
+                           <specDesc key="name"/>
+                           <specDesc key="birth"/>
+                           <specDesc key="note"/>
+                        </specList>.
+                        La balise <gi>name</gi> contient le nom du navire ainsi que des attributs <gi>type</gi>, qui
+                        indique à quelle flotte il appartient, et <gi>subtype</gi> qui renseigne le type de navire dont
+                        il s'agit. La balise <gi>birth</gi> renseigne la date de naissance du navire, c'est-à-dire sa
+                        date de fin de construction et de mise à flot. La dernière balise, <gi>note</gi>, donne la définition
+                        du terme, comme l'indique l'attribut <gi>type</gi> qui rappelle que les éléments remplis relèvent
+                        d'informations complémentaires.
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <listPerson>
                               <person xml:id="La_Couronne" >
@@ -155,29 +238,50 @@
                                     <ref target="https://fr.wikipedia.org/wiki/Couronne_(1632)">La Couronne</ref>
                                  </name>
                                  <birth when="1636">1636</birth>
-                                 <note type="information"> Navire français de 72 canons construit à la Roche-Bernard, lancé en 1636</note>
+                                 <note type="information"> Navire français de 72 canons construit à la Roche-Bernard,
+                                    lancé en 1636</note>
                               </person>
                            </listPerson>
                         </egXML>
 
-                        Si le choix des balises <gi>listPerson</gi>, <gi>person</gi> et des éléments comme <gi>name</gi> et <gi>birth</gi> peuvent soulever des questions -puisqu'il s'agit avant tout de navires-, cela s'explique par le fait qu'on peut considérer tout navire comme une entité vivante à part entière, dans la mesure où les vaisseaux ne sont pas tellement considérés comme des bâtiments dans la mesure où ils se déplacent, mais plutôt comme des entités vivantes.</p>
+                        Si le choix des balises <gi>listPerson</gi>, <gi>person</gi> et des éléments comme <gi>name</gi>
+                        et <gi>birth</gi> peuvent soulever des questions -puisqu'il s'agit avant tout de navires-, cela
+                        s'explique par le fait qu'on peut considérer tout navire comme une entité vivante à part entière,
+                        dans la mesure où les vaisseaux ne sont pas tellement considérés comme des bâtiments dans la
+                        mesure où ils se déplacent, mais plutôt comme des entités vivantes.</p>
 
-                     <p>La deuxième partie se caractérise par l'élément <gi>listPlace</gi>. Il est utilisé pour définir une liste de lieux associés à l'architecture navale ancienne. On y retrouve les noms de lieux liés à la coque, aux ponts et aux mâts du navire. Le choix a été fait de préciser à l'aide d'un attribut <gi>type</gi>, que l'on couvre dans cette section la localisation des éléments sur un navire. Chaque nouvel endroit est contenu dans une balise <gi>place</gi>, enrichit d'un attribut <gi>xml:id</gi> qui correspond à l'identifiant unique du terme, et d'un attribut <gi>type</gi>, qui indique de façon plus précise dans quelle partie du navire cet élément se retrouve. La balise <gi>place</gi> contient deux balises : <specList>
-                        <specDesc key="placeName"/>
-                        <specDesc key="note"/>
-                     </specList>.
-                        <gi>placeName</gi> contient le nom du lieu évoqué dans le texte, et la balise <gi>note</gi>, accompagnée de l'attribut <gi>type</gi>, donne la définition.
+                     <p>La deuxième partie se caractérise par l'élément <gi>listPlace</gi>. Il est utilisé pour définir
+                        une liste de lieux associés à l'architecture navale ancienne. On y retrouve les noms de lieux
+                        liés à la coque, aux ponts et aux mâts du navire. Le choix a été fait de préciser à l'aide d'un
+                        attribut <gi>type</gi>, que l'on couvre dans cette section la localisation des éléments sur un
+                        navire. Chaque nouvel endroit est contenu dans une balise <gi>place</gi>, enrichit d'un attribut
+                        <gi>xml:id</gi> qui correspond à l'identifiant unique du terme, et d'un attribut <gi>type</gi>,
+                        qui indique de façon plus précise dans quelle partie du navire cet élément se retrouve. La balise
+                        <gi>place</gi> contient deux balises :
+                        <specList>
+                           <specDesc key="placeName"/>
+                           <specDesc key="note"/>
+                        </specList>.
+                        <gi>placeName</gi> contient le nom du lieu évoqué dans le texte, et la balise <gi>note</gi>,
+                        accompagnée de l'attribut <gi>type</gi>, donne la définition.
 
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <listPlace type="localisation">
                               <place xml:id="tete" type="hull">
                                  <placeName>tête</placeName>
-                                 <note type="definition">Extrêmité avant du navire.</note>
+                                 <note type="definition">Extrémité avant du navire.</note>
                               </place>
                            </listPlace>
                         </egXML></p>
 
-                     <p>La troisième partie s'ouvre avec la balise <gi>listObject</gi>, qui est utilisée pour annoter les noms des composants d'un navire. Puisqu'il s'agit de la première <gi>listObject</gi>, elle a été différenciée de la dernière partie à l'aide d'un attribut <gi>type</gi> qui indique qu'il s'agit ici d'éléments et de composants d'un navire. Chaque définition est contenu dans une balise <gi>object</gi>. <gi>object</gi> a un attribut identifiant <gi>xml:id</gi>, qui reprend le nom de l'élément, et un attribut <gi>type</gi>, qui indique plus largement sur quelle partie du navire se trouve l'élément mentionné. Pour conserver une certaine uniformité, tous les attributs types contiennent les valeurs suivantes :
+                     <p>La troisième partie s'ouvre avec la balise <gi>listObject</gi>, qui est utilisée pour annoter
+                        les noms des composants d'un navire. Puisqu'il s'agit de la première <gi>listObject</gi>, elle a
+                        été différenciée de la dernière partie à l'aide d'un attribut <gi>type</gi> qui indique qu'il
+                        \s'agit ici d'éléments et de composants d'un navire. Chaque définition est contenu dans une balise
+                        <gi>object</gi>. <gi>object</gi> a un attribut identifiant <gi>xml:id</gi>, qui reprend le nom
+                        de l'élément, et un attribut <gi>type</gi>, qui indique plus largement sur quelle partie du navire
+                        se trouve l'élément mentionné. Pour conserver une certaine uniformité, tous les attributs types
+                        contiennent les valeurs suivantes :
                         <list>
                            <item>masts</item>
                            <item>sail</item>
@@ -186,12 +290,23 @@
                            <item>ropes</item>
                            <item>measures</item>
                         </list>
-                        qui correspondent respectivement à la mâture, la voilure, la coque, le pont, les cordages, et les mesures. Chaque définition est ainsi mieux contextualisée.
-                        Vient ensuite la balise <gi>objectIdentifier</gi>, qui contient la balise <gi>objectName</gi> choisie pour indiquer le nom de l'élément encodé.
+                        qui correspondent respectivement à la mâture, la voilure, la coque, le pont, les cordages, et
+                        les mesures. Chaque définition est ainsi mieux contextualisée.
+                        Vient ensuite la balise <gi>objectIdentifier</gi>, qui contient la balise <gi>objectName</gi>
+                        choisie pour indiquer le nom de l'élément encodé.
 
-                        <gi>objectName</gi> en TEI n'avait à la base pas pour vocation l'encodage d'un vocabulaire particulier, mais semblait être davantage utilisée dans le teiHeader pour encoder les éléments relatifs à la structure physique d'un élément. Néanmoins, la seule section dans laquelle elle pouvait apparaître étant l'élément <gi>biblFull</gi>, cela n'aurait pas fait sens puisque aurait défilé juste après des informations relatives au livre lui-même et à sa production, des informations relatives au contenu du texte. <gi>objectName</gi> est donc utilisée ici littéralement pour nommer des objets et des éléments évoqués dans le texte.
+                        <gi>objectName</gi> en TEI n'avait à la base pas pour vocation l'encodage d'un vocabulaire
+                        particulier, mais semblait être davantage utilisée dans le teiHeader pour encoder les éléments
+                        relatifs à la structure physique d'un élément. Néanmoins, la seule section dans laquelle elle
+                        pouvait apparaître étant l'élément <gi>biblFull</gi>, cela n'aurait pas fait sens puisque
+                        aurait défilé juste après des informations relatives au livre lui-même et à sa production, des
+                        informations relatives au contenu du texte. <gi>objectName</gi> est donc utilisée ici littéralement
+                        pour nommer des objets et des éléments évoqués dans le texte.
 
-                        Au même niveau qu'<gi>objectIdentifier</gi> se trouve la balise <gi>physDesc</gi>, qui permet de donner la description physique de l'élément. Pour encoder la définition a été utilisé l'élément <gi>p</gi> accompagné de l'attribut <gi>ana</gi> dont la valeur précise, elle aussi, qu'il s'agit d'une définition.
+                        Au même niveau qu'<gi>objectIdentifier</gi> se trouve la balise <gi>physDesc</gi>, qui permet de
+                        donner la description physique de l'élément. Pour encoder la définition a été utilisé l'élément
+                        <gi>p</gi> accompagné de l'attribut <gi>ana</gi> dont la valeur précise, elle aussi, qu'il s'agit
+                        d'une définition.
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <listObject type="element">
                               <object xml:id="quille" type="hull">
@@ -199,13 +314,18 @@
                                     <objectName>quille</objectName>
                                  </objectIdentifier>
                                  <physDesc>
-                                    <p ana="definition">Epine dorsal du navire située sous la coque, elle parcourt un bâtiment sur toute sa longueur. C'est la partie la plus basse d'un bateau.</p>
+                                    <p ana="definition">Épine dorsale du navire située sous la coque, elle parcourt un
+                                       bâtiment sur toute sa longueur. C'est la partie la plus basse d'un bateau.</p>
                                  </physDesc>
                               </object>
                            </listObject>
                         </egXML></p>
 
-                     <p>La quatrième et dernière partie est aussi une <gi>listObject</gi>, mais dédiée aux types de navires énoncés dans le texte, ce qui explique l'utilisation de l'attribut <gi>type</gi> avec la valeur "ships" pour clarifier. L'usage et la hiérarchie des balises reste le même que pour la précédente <gi>listObject</gi>. La principale différence est que l'élément <gi>object</gi> ne dispose que de l'attribut <gi>xml:id</gi>, et non pas d'un attribut type en plus.
+                     <p>La quatrième et dernière partie est aussi une <gi>listObject</gi>, mais dédiée aux types de navires
+                        énoncés dans le texte, ce qui explique l'utilisation de l'attribut <gi>type</gi> avec la valeur
+                        "ships" pour clarifier. L'usage et la hiérarchie des balises reste le même que pour la précédente
+                        <gi>listObject</gi>. La principale différence est que l'élément <gi>object</gi> ne dispose que de
+                        l'attribut <gi>xml:id</gi>, et non pas d'un attribut type en plus.
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <listObject type="ships">
                               <object xml:id="chebec">
@@ -221,19 +341,31 @@
                            </listObject>
                         </egXML>
                      </p>
-                     <p>Répartir chaque élément dans la liste correspondante peut être ardu. En cas de doute, certains mots de vocabulaire pouvant à la fois désigner un élément ou un endroit, prendre en compte le contexte dans lequel il apparaît. Si cette solution n'est pas concluante, la balise <gi>placeName</gi> domine. Par exemple, les vergues correspondent à un type de mât, donc pourraient être encodées avec une balise <gi>objectName</gi> mais puisqu'il s'agit d'un endroit où les marins évoluent et se rendent pour replier les voiles, le terme a été encodé avec l'élément <gi>placeName</gi>.</p>
+                     <p>Répartir chaque élément dans la liste correspondante peut être ardu. En cas de doute, certains
+                        mots de vocabulaire pouvant à la fois désigner un élément ou un endroit, prendre en compte le
+                        contexte dans lequel il apparaît. Si cette solution n'est pas concluante, la balise <gi>placeName</gi> \
+                        domine. Par exemple, les vergues correspondent à un type de mât, donc pourraient être encodées
+                        avec une balise <gi>objectName</gi> mais puisqu'il s'agit d'un endroit où les marins évoluent
+                        et se rendent pour replier les voiles, le terme a été encodé avec l'élément <gi>placeName</gi>.</p>
 
-                     <p>De plus, on peut remarquer que le choix a été fait de mettre un <gi>xml:id</gi> pour tous les éléments puisque le but est de faire un index avec toutes les définitions, et que ces définitions puissent être accessibles. </p>
-
+                     <p>De plus, on peut remarquer que le choix a été fait de mettre un <gi>xml:id</gi> pour tous les
+                        éléments puisque le but est de faire un index avec toutes les définitions, et que ces définitions
+                        puissent être accessibles. </p>
                   </div4>
                   <div4>
                      <head>le corps du texte</head>
-                     <p>Le texte se compose de cinq extraits, chaque extrait étant lui-même structuré en paragraphes. Le découpage hiérarchique du texte est parlant et n'a pas posé de problème une fois que la décision de ne pas garder les deux colonnes sur la même page a été faite. Le texte se structure donc de manière basique grâce aux éléments : <specList>
-                        <specDesc key="div"/>
-                        <specDesc key="p"/>
-                     </specList>
-                        L'élément <gi>div</gi> se réfère aux cinq extraits tirés de l'ouvrage, ce qui est indiqué grâce à l'attribut <gi>type</gi>. L'attribut <gi>n</gi> désigne le numéro de l'extrait.
-                        Un même extrait se décompose en plusieurs paragraphes <gi>p</gi>, qui correspondent globalement aux paragraphes du texte original.
+                     <p>Le texte se compose de cinq extraits, chaque extrait étant lui-même structuré en paragraphes.
+                        Le découpage hiérarchique du texte est parlant et n'a pas posé de problème une fois que la décision
+                        de ne pas garder les deux colonnes sur la même page a été faite. Le texte se structure donc de
+                        manière basique grâce aux éléments :
+                        <specList>
+                           <specDesc key="div"/>
+                           <specDesc key="p"/>
+                        </specList>
+                        L'élément <gi>div</gi> se réfère aux cinq extraits tirés de l'ouvrage, ce qui est indiqué grâce
+                        à l'attribut <gi>type</gi>. L'attribut <gi>n</gi> désigne le numéro de l'extrait.
+                        Un même extrait se décompose en plusieurs paragraphes <gi>p</gi>, qui correspondent globalement
+                        aux paragraphes du texte original.
                      </p>
                   </div4>
                </div3>
