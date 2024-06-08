@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="ODD_TEI_description_navire.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="ODD_TEI_description_navire.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/ODD_TEI_description_navire.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/ODD_TEI_description_navire.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!DOCTYPE TEI [
+        <!ENTITY quille '<objectName ref="#quille">quille</objectName>'>
+        <!ENTITY mat-de-hune '<placeName ref="#matHune">mât de hune</placeName>'>
+        <!ENTITY grand-mat '<placeName ref="#grandMat">grand mât</placeName>'>
+]>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <!-- Description bibliographique du fichier numérique ainsi que de sa source (physique ou non) -->
@@ -197,7 +204,7 @@
          </place>
          <place xml:id="matMisaine" type="masts">
             <placeName>mât de misaine</placeName>
-            <note type="definition">Mât situé à l'avant d'un navire, devant le <placeName ref="#grandMat">grand mât</placeName>.</note>
+            <note type="definition">Mât situé à l'avant d'un navire, devant le &grand-mat;.</note>
          </place>
          <place xml:id="matArtimon" type="masts">
             <placeName>artimon</placeName>
@@ -262,7 +269,7 @@
             <physDesc>
                <p ana="definition">Assemblage de plusieurs pièces de bois <objectName ref="#courbes">courbes</objectName>
                   qui viennent se poser sur le <objectName ref="#brion">brion</objectName> à l'avant du navire, et qui
-                  constituent le prolongement de la <objectName ref="#quille">quille</objectName> hors de l'eau. L’étrave
+                  constituent le prolongement de la &quille; hors de l'eau. L’étrave
                   est destinée à porter entre autres la guibre, la <placeName ref="#poulaine">poulaine</placeName>, le corps
                   du mât de beaupré et c’est en s’appuyant sur elle que s’édifient la plupart des constructions de la proue.</p>
             </physDesc>
@@ -273,7 +280,7 @@
             </objectIdentifier>
             <physDesc>
                <p ana="definition">L’étambot est une pièce de bois droite qui termine l’arrière des navires. Elle se place
-                  donc à l’extrémité arrière de la <objectName ref="#quille">quille</objectName>, et possède la même largeur.
+                  donc à l’extrémité arrière de la &quille;, et possède la même largeur.
                   Il est destiné à porter le gouvernail.</p>
             </physDesc>
          </object>
@@ -282,7 +289,7 @@
                <objectName>bau</objectName>
             </objectIdentifier>
             <physDesc>
-               <p ana="definition">Poutres principales posées perpendiculairement à l'axe de la <objectName ref="#quille">quille</objectName>
+               <p ana="definition">Poutres principales posées perpendiculairement à l'axe de la &quille;
                   (donc dans le sens de la largeur du bâtiment) afin de constituer la base de l'édification des ponts. Les
                   baux maintiennent la forme et l'écartement des couples.</p>
             </physDesc>
@@ -341,8 +348,8 @@
             </objectIdentifier>
             <physDesc>
                <p ana="definition">Les ribords, ou bordés de fond, sont des lattes de bois situées juste au dessus des
-                  galbords (la partie de la coque la plus proche de la <objectName ref="#quille">quille</objectName>).
-                  Ils servent à renforcer et relier la <objectName ref="#quille">quille</objectName></p>
+                  galbords (la partie de la coque la plus proche de la &quille;).
+                  Ils servent à renforcer et relier la &quille;</p>
             </physDesc>
          </object>
          <object xml:id="etambrai" type="deck">
@@ -376,7 +383,7 @@
                <objectName>hunier</objectName>
             </objectIdentifier>
             <physDesc>
-               <p ana="definition">Voile carrée du <placeName ref="#matHune">mât de hune</placeName>.</p>
+               <p ana="definition">Voile carrée du &mat-de-hune;.</p>
             </physDesc>
          </object>
          <object xml:id="perroquet" type="sail">
@@ -411,7 +418,7 @@
                <objectName>grand pacfi</objectName>
             </objectIdentifier>
             <physDesc>
-               <p ana="definition">Voile du <placeName ref="#grandMat">grand mât</placeName>.</p>
+               <p ana="definition">Voile du &grand-mat;.</p>
             </physDesc>
          </object>
          <object xml:id="bonnette" type="sail">
@@ -427,7 +434,7 @@
                <objectName>grand hunier</objectName>
             </objectIdentifier>
             <physDesc>
-               <p ana="definition">Voile carrée généralement fixée sur le <placeName ref="#grandMat">grand mât</placeName>.</p>
+               <p ana="definition">Voile carrée généralement fixée sur le &grand-mat;.</p>
             </physDesc>
          </object>
          <object xml:id="basseVoile" type="sail">
@@ -444,7 +451,7 @@
             </objectIdentifier>
             <physDesc>
                <p ana="definition">Désigne la plus grande voile sur un voilier à mât unique, ou la plus grande voile du
-                  <placeName ref="#grandMat">grand mât</placeName> sur un voilier à mâts multiples.</p>
+                  &grand-mat; sur un voilier à mâts multiples.</p>
             </physDesc>
          </object>
          <object xml:id="dispositionVoiles" type="sail">
@@ -558,14 +565,14 @@
       <body>
          <div type="extract" n="1">
             <p>
-               On donnait le tiers de la longueur de la <objectName ref="#quille">quille</objectName> pour la
+               On donnait le tiers de la longueur de la &quille; pour la
                <objectName ref="#quete">quête</objectName> et les trois quarts de ce tiers étaient pour l'élancement de
                l'<objectName ref="#etrave">étrave</objectName> et 1/4 ou un peu moins pour l'obliquité de
                l'<objectName ref="#etambot">étambot</objectName> ; de sorte que la longueur de <placeName ref="#tete">tête
                </placeName> en <placeName ref="#tete">tête</placeName> était environ une fois et un tiers la
-               <objectName ref="#quille">quille</objectName>. Au lieu d'être en ligne droite, comme chez les arabes,
+               &quille;. Au lieu d'être en ligne droite, comme chez les arabes,
                l'<objectName ref="#etrave">étrave</objectName> était un arc de cercle d'écrit d'un point de la verticale
-               élevée sur le bout de la <objectName ref="#quille">quille</objectName> et avec un rayon égal au
+               élevée sur le bout de la &quille; et avec un rayon égal au
                <objectName ref="#bau">bau</objectName>. En France on trouvait que cela faisait la <placeName ref="#tete">
                tête</placeName> trop petite et on commençait souvent la <objectName ref="#quete">quête</objectName> le
                plus en arrière possible, presque au <objectName ref="#maitreCouple">maître couple</objectName>, en donnant
@@ -575,12 +582,12 @@
             </p>
             <p>
                Le <objectName ref="#maitreCouple">maître couple</objectName> se plaçait au tiers de la
-               <objectName ref="#quille">quille</objectName> à partir du <objectName ref="#brion">brion</objectName>,
+               &quille; à partir du <objectName ref="#brion">brion</objectName>,
                ce qui le mettait à peu près au milieu de la distance de <placeName ref="#tete">tête</placeName> en
                <placeName ref="#tete">tête</placeName>, et le rapport au <objectName ref="maitreBau">maître bau</objectName>
                était 1 à 3,47 ou même de 1 à 4 ; tandis que les <term ref="#galere">galères</term> avaient 6,7 et même neuf
                fois leur largeur ; suite naturelle de la différence des moteurs, les rames ou les voiles. Par creux, on
-               entendait la hauteur sur <objectName ref="#quille">quille</objectName> du point le plus élevé ;
+               entendait la hauteur sur &quille; du point le plus élevé ;
                aussi <name ref="#La_Couronne">la Couronne</name> avait 24 m 24 ; mais le plus souvent, c'était la hauteur
                sous le <placeName ref="#francTillac">franc tillac</placeName> ; laquelle n'était que la moitié de la précédente.
             </p>
@@ -609,7 +616,7 @@
          </div>
          <div type="extract" n="3">
             <p>
-               Le <placeName ref="#grandMat">grand mât</placeName> du <name ref="#Le_Royal_Louis">Royal</name> avait
+               Le &grand-mat; du <name ref="#Le_Royal_Louis">Royal</name> avait
                0 m 974 de diamètre et il rompit quoiqu'il fut bien surlié : il est dit qu'on aurait dû lui donner 1 m 19 ;
                entre les <objectName ref="#elongis">élongis</objectName> le diamètre était les deux tiers de celui à
                l'<objectName ref="#etambrai">étambrai</objectName>, ce qui donnait 0 m 650 en haut, la diminution n'était
@@ -619,13 +626,12 @@
                Le <placeName ref="#grandMatHune">grand mât de hune</placeName> avait la moitié du <placeName ref="#basMat">
                bas mât</placeName> et celui du <objectName ref="#perroquet">perroquet</objectName> la moitié du précédent.
                <name ref="#La_Couronne">La Couronne</name> l'avait un peu plus court, parce que de grand temps, on abaissait
-               le <placeName ref="#matHune">mât de hune</placeName> et le vaisseau tourmentait moins ; c'est un usage tout
+               le &mat-de-hune; et le vaisseau tourmentait moins ; c'est un usage tout
                à fait abandonné et de la sorte un navire fatiguerait au contraire davantage. Au <placeName ref="#matMisaine">
-               mât de misaine</placeName>, toutes les pièces avaient un cinquième de moins qu'au <placeName ref="#grandMat">
-               grand mât</placeName> et à l'<placeName ref="#matArtimon">artimon</placeName> un cinquième de moins qu'au précédent,
-               une autre règle était de donner au <placeName ref="#grandMat">grand mât</placeName> la longueur de la
-               <objectName ref="#quille">quille</objectName> et au <placeName ref="#matHune">mât de hune</placeName>
-               celle de la <objectName ref="#quete">quête</objectName>.
+               mât de misaine</placeName>, toutes les pièces avaient un cinquième de moins qu'au &grand-mat; et à
+               l'<placeName ref="#matArtimon">artimon</placeName> un cinquième de moins qu'au précédent,
+               une autre règle était de donner au &grand-mat; la longueur de la
+               &quille; et au &mat-de-hune; celle de la <objectName ref="#quete">quête</objectName>.
             </p>
          </div>
          <div type="extract" n="4">
@@ -648,7 +654,7 @@
          </div>
          <div type="extract" n="5">
             <p>
-               Quand à la dimension des voiles, celle du <placeName ref="#grandMat">grand mât</placeName>, nommée la
+               Quand à la dimension des voiles, celle du &grand-mat;, nommée la
                <objectName ref="#voileGrandMat">cape</objectName> ou le <objectName ref="#voileGrandMat">grand Pacfi</objectName>,
                devait avoir le tiers de la hauteur de son mât sans y comprendre les <objectName ref="#bonnette">bonnettes</objectName>,
                qui sont des petites voiles qui se boutonnent au bas de la grande et descendent jusqu'au <objectName ref="#ribord">

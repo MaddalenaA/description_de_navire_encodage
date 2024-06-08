@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+COMMENTAIRE
+Excellent travail : documentation très bien construite, claire et précise
+Choix d'encodage justifiés et bien adaptés à la source, bonne valorisation du travail de balisage
+Il manque une règle de validation constraintSpec c'est dommage.
+Quelques entités ont été ajoutées au document TEI, comme exemple d'amélioration
+-->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -61,13 +70,13 @@
                   diffusion du patrimoine maritime en rendant ce savoir plus accessible à un public varié.</p>
                <p>Par conséquent, le choix a été fait d'encoder tous les mots qui désignent :
                   <list>
-                     <item>- un endroit précis sur le navire ; le terme <emph>endroit</emph> étant compris comme un emplacement,
+                     <item>un endroit précis sur le navire ; le terme <emph>endroit</emph> étant compris comme un emplacement,
                         des lieux où on peut aller (comme la mâture ou le pont d'un navire)</item>
-                     <item>- un composant du navire, c'est-à-dire une pièce particulière qui compose le navire. Cette
+                     <item>un composant du navire, c'est-à-dire une pièce particulière qui compose le navire. Cette
                         décision vise à faciliter la compréhension de la structure physique d'un bâtiment naval.</item>
-                     <item>- les types de navires évoqués. Cela permettra non seulement de disposer du vocabulaire
+                     <item>les types de navires évoqués. Cela permettra non seulement de disposer du vocabulaire
                         concernant la structure d'un bâtiment, mais également de savoir à quel type de navire ils s'appliquent.</item>
-                     <item>- le nom des navires étudiés dans l'ouvrage. Ce choix est justifié par la volonté de conserver
+                     <item>le nom des navires étudiés dans l'ouvrage. Ce choix est justifié par la volonté de conserver
                         l'aspect historique de l'ouvrage, en développant les informations propres aux navires pris comme
                         exemple dans l'ouvrage par l'amiral Edmond Pâris, lesdits navires étant des références en terme
                         d'histoire maritime.</item>
@@ -79,30 +88,30 @@
                <head>Méthodologie d'encodage</head>
                <div3>
                   <head>les éléments qui n'ont pas été encodés et pourquoi :</head>
-                  <p> Plusieurs éléments n'ont pas été encodé ; parmi eux la mise en page et l'écriture en elle-même.
+                  <p>Plusieurs éléments n'ont pas été encodé ; parmi eux la mise en page et l'écriture en elle-même.
                      Puisque tout l'intérêt du livre résidait dans l'encodage du vocabulaire maritime, cela était secondaire,
                      et donc n'a pas été traité. Cela implique :
                      <list>
-                        <item>- une modernisation de la ponctuation utilisée pour permettre davantage de clarté lorsque
+                        <item>une modernisation de la ponctuation utilisée pour permettre davantage de clarté lorsque
                            les phrases sont trop longues et peu claires</item>
-                        <item>- une réorganisation de la mise en page. Le texte de base se présente sous forme de deux
+                        <item>une réorganisation de la mise en page. Le texte de base se présente sous forme de deux
                            colonnes sur une seule page. Le choix ici a été fait de ne pas conserver cette structure en
                            colonne, et de présenter la structure avec les extraits encapsulés dans des div, elles-mêmes
                            divisées en paragraphes. Les paragraphes du texte original sont restés identiques.</item>
-                        <item>- l'espace entre les mots et les virgules est modernisé</item>
-                        <item>- les tirets pour les coupures de mot en fin de phrase ont été enlevés</item>
-                        <item>- la notation des mesures a été normalisée et écrit suivant ces exemples : <emph>1 m 50</emph>
+                        <item>l'espace entre les mots et les virgules est modernisé</item>
+                        <item>les tirets pour les coupures de mot en fin de phrase ont été enlevés</item>
+                        <item>la notation des mesures a été normalisée et écrit suivant ces exemples : <emph>1 m 50</emph>
                            pour les distances mesurables, <emph>1,50</emph> pour les rapports ou les distances non-mesurables.</item>
-                     </list></p>
+                     </list></p><!--Très bien-->
 
                   <p>La <emph>notation des mesures</emph> comme partie à part entière du projet d'encodage a été un temps
                      envisagé, puis finalement abandonné, au profit de la conception de l'index. Il a semblé plus
                      intéressant de peaufiner les définitions, qui offrent un enrichissement certain, que de clarifier
                      les informations relevant du type de mesure.</p>
 
-                  <p>Enfin, dernière remarque concernant les éléments envisagés qui n'ont finalement pas été traité :
-                     le <emph>teiHeader</emph>. Si au début le projet visait à faire figurer toutes les définitions
-                     dans le teiHeader, il n'a pas été retenu, car seuls les noms des navires et les noms des endroits
+                  <p>Enfin, dernière remarque concernant les éléments envisagés qui n'ont finalement pas été traités :
+                     le <gi>teiHeader</gi>. Si au début le projet visait à faire figurer toutes les définitions
+                     dans le <gi>teiHeader</gi>, il n'a pas été retenu, car seuls les noms des navires et les noms des endroits
                      pouvaient y figurer. Les noms des composants, encodés avec la balise <gi>objectName</gi>, ne
                      pouvaient apparaître que dans la section <gi>sourceDesc</gi>, et plus particulièrement l'élément
                      <gi>biblFull</gi>, qui est normalement destiné aux informations relatives à l'aspect physique du
@@ -156,7 +165,7 @@
                         La balise <gi>editionStmt</gi> apporte des informations sur l'édition, en utilisant notamment les
                         balises <gi>edition</gi> pour informer que l'encodage a été réalisé dans le cadre d'un cours en
                         2024, et la balise <gi>respStmt</gi> qui identifie l'encodeur responsable de l'encodage, avec son
-                        prénom et son nom. L'attribut xml:id est utilisé pour une identification unique de l'encodeur en
+                        prénom et son nom. L'attribut <att>xml:id</att> est utilisé pour une identification unique de l'encodeur en
                         question.
                         La balise <gi>publicationStmt</gi> apporte des informations sur la publication numérique du document,
                         grâce aux éléments <gi>publisher</gi>, qui spécifie le nom de l'éditeur -en l'occurrence les
@@ -196,16 +205,16 @@
                   <!-- description de l'index -->
                   <div4>
                      <head>encoder l'index : StandOff</head>
-                     <p>Le choix de la balise standOff s'explique parce qu'elle permet de contenir toutes les listes de
+                     <p>Le choix de la balise <gi>standOff</gi> s'explique parce qu'elle permet de contenir toutes les listes de
                         vocabulaire recensé. Rappelons que <gi>standOff</gi> fonctionne comme un contenant pour des liens
                         ou des informations contextuelles ou rajoutées par l'encodeur lors de la création du document TEI,
                         d'où ce choix.
                         En effet, quatre grandes sections sont privilégiées dans l'encodage. Rappelons-les :
                         <list>
-                           <item>- un endroit précis sur le navire</item>
-                           <item>- un composant du navire, c'est-à-dire une pièce particulière qui compose le navire</item>
-                           <item>- les types de navires évoqués</item>
-                           <item>- le nom des navires étudiés dans l'ouvrage</item>
+                           <item>un endroit précis sur le navire</item>
+                           <item>un composant du navire, c'est-à-dire une pièce particulière qui compose le navire</item>
+                           <item>les types de navires évoqués</item>
+                           <item>le nom des navires étudiés dans l'ouvrage</item>
                         </list>
 
                         Ces quatre sections sont retranscrites dans la balise <gi>standOff</gi> grâce aux balises suivantes :
@@ -218,18 +227,18 @@
 
                      <p>La première partie, <gi>listPerson</gi> est utilisée pour regrouper et annoter les noms de navires.
                         Elle contient des balises <gi>person</gi> qui renvoient à une entité navire, enrichit d'un attribut
-                        <gi>xml:id</gi> pour générer un identifiant unique permettant de référencer le nom du navire.
+                        <att>xml:id</att> pour générer un identifiant unique permettant de référencer le nom du navire.
                         L'élément <gi>person</gi> contient lui-même trois balises :
                         <specList>
                            <specDesc key="name"/>
                            <specDesc key="birth"/>
                            <specDesc key="note"/>
                         </specList>.
-                        La balise <gi>name</gi> contient le nom du navire ainsi que des attributs <gi>type</gi>, qui
-                        indique à quelle flotte il appartient, et <gi>subtype</gi> qui renseigne le type de navire dont
+                        La balise <gi>name</gi> contient le nom du navire ainsi que des attributs <att>type</att>, qui
+                        indique à quelle flotte il appartient, et <att>subtype</att> qui renseigne le type de navire dont
                         il s'agit. La balise <gi>birth</gi> renseigne la date de naissance du navire, c'est-à-dire sa
                         date de fin de construction et de mise à flot. La dernière balise, <gi>note</gi>, donne la définition
-                        du terme, comme l'indique l'attribut <gi>type</gi> qui rappelle que les éléments remplis relèvent
+                        du terme, comme l'indique l'attribut <att>type</att> qui rappelle que les éléments remplis relèvent
                         d'informations complémentaires.
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <listPerson>
@@ -248,14 +257,14 @@
                         et <gi>birth</gi> peuvent soulever des questions -puisqu'il s'agit avant tout de navires-, cela
                         s'explique par le fait qu'on peut considérer tout navire comme une entité vivante à part entière,
                         dans la mesure où les vaisseaux ne sont pas tellement considérés comme des bâtiments dans la
-                        mesure où ils se déplacent, mais plutôt comme des entités vivantes.</p>
+                        mesure où ils se déplacent, mais plutôt comme des entités vivantes.</p><!--Soit-->
 
                      <p>La deuxième partie se caractérise par l'élément <gi>listPlace</gi>. Il est utilisé pour définir
                         une liste de lieux associés à l'architecture navale ancienne. On y retrouve les noms de lieux
                         liés à la coque, aux ponts et aux mâts du navire. Le choix a été fait de préciser à l'aide d'un
-                        attribut <gi>type</gi>, que l'on couvre dans cette section la localisation des éléments sur un
+                        attribut <att>type</att>, que l'on couvre dans cette section la localisation des éléments sur un
                         navire. Chaque nouvel endroit est contenu dans une balise <gi>place</gi>, enrichit d'un attribut
-                        <gi>xml:id</gi> qui correspond à l'identifiant unique du terme, et d'un attribut <gi>type</gi>,
+                        <att>xml:id</att> qui correspond à l'identifiant unique du terme, et d'un attribut <att>type</att>,
                         qui indique de façon plus précise dans quelle partie du navire cet élément se retrouve. La balise
                         <gi>place</gi> contient deux balises :
                         <specList>
@@ -276,10 +285,10 @@
 
                      <p>La troisième partie s'ouvre avec la balise <gi>listObject</gi>, qui est utilisée pour annoter
                         les noms des composants d'un navire. Puisqu'il s'agit de la première <gi>listObject</gi>, elle a
-                        été différenciée de la dernière partie à l'aide d'un attribut <gi>type</gi> qui indique qu'il
+                        été différenciée de la dernière partie à l'aide d'un attribut <att>type</att> qui indique qu'il
                         \s'agit ici d'éléments et de composants d'un navire. Chaque définition est contenu dans une balise
-                        <gi>object</gi>. <gi>object</gi> a un attribut identifiant <gi>xml:id</gi>, qui reprend le nom
-                        de l'élément, et un attribut <gi>type</gi>, qui indique plus largement sur quelle partie du navire
+                        <gi>object</gi>. <gi>object</gi> a un attribut identifiant <att>xml:id</att>, qui reprend le nom
+                        de l'élément, et un attribut <att>type</att>, qui indique plus largement sur quelle partie du navire
                         se trouve l'élément mentionné. Pour conserver une certaine uniformité, tous les attributs types
                         contiennent les valeurs suivantes :
                         <list>
@@ -296,7 +305,7 @@
                         choisie pour indiquer le nom de l'élément encodé.
 
                         <gi>objectName</gi> en TEI n'avait à la base pas pour vocation l'encodage d'un vocabulaire
-                        particulier, mais semblait être davantage utilisée dans le teiHeader pour encoder les éléments
+                        particulier, mais semblait être davantage utilisée dans le <gi>teiHeader</gi> pour encoder les éléments
                         relatifs à la structure physique d'un élément. Néanmoins, la seule section dans laquelle elle
                         pouvait apparaître étant l'élément <gi>biblFull</gi>, cela n'aurait pas fait sens puisque
                         aurait défilé juste après des informations relatives au livre lui-même et à sa production, des
@@ -322,10 +331,10 @@
                         </egXML></p>
 
                      <p>La quatrième et dernière partie est aussi une <gi>listObject</gi>, mais dédiée aux types de navires
-                        énoncés dans le texte, ce qui explique l'utilisation de l'attribut <gi>type</gi> avec la valeur
-                        "ships" pour clarifier. L'usage et la hiérarchie des balises reste le même que pour la précédente
+                        énoncés dans le texte, ce qui explique l'utilisation de l'attribut <att>type</att> avec la valeur
+                        "<val>ships</val>" pour clarifier. L'usage et la hiérarchie des balises reste le même que pour la précédente
                         <gi>listObject</gi>. La principale différence est que l'élément <gi>object</gi> ne dispose que de
-                        l'attribut <gi>xml:id</gi>, et non pas d'un attribut type en plus.
+                        l'attribut <att>xml:id</att>, et non pas d'un attribut type en plus.
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                            <listObject type="ships">
                               <object xml:id="chebec">
@@ -343,14 +352,14 @@
                      </p>
                      <p>Répartir chaque élément dans la liste correspondante peut être ardu. En cas de doute, certains
                         mots de vocabulaire pouvant à la fois désigner un élément ou un endroit, prendre en compte le
-                        contexte dans lequel il apparaît. Si cette solution n'est pas concluante, la balise <gi>placeName</gi> \
+                        contexte dans lequel il apparaît. Si cette solution n'est pas concluante, la balise <gi>placeName</gi>
                         domine. Par exemple, les vergues correspondent à un type de mât, donc pourraient être encodées
                         avec une balise <gi>objectName</gi> mais puisqu'il s'agit d'un endroit où les marins évoluent
                         et se rendent pour replier les voiles, le terme a été encodé avec l'élément <gi>placeName</gi>.</p>
 
-                     <p>De plus, on peut remarquer que le choix a été fait de mettre un <gi>xml:id</gi> pour tous les
+                     <p>De plus, on peut remarquer que le choix a été fait de mettre un <att>xml:id</att> pour tous les
                         éléments puisque le but est de faire un index avec toutes les définitions, et que ces définitions
-                        puissent être accessibles. </p>
+                        puissent être accessibles.</p>
                   </div4>
                   <div4>
                      <head>le corps du texte</head>
@@ -363,7 +372,7 @@
                            <specDesc key="p"/>
                         </specList>
                         L'élément <gi>div</gi> se réfère aux cinq extraits tirés de l'ouvrage, ce qui est indiqué grâce
-                        à l'attribut <gi>type</gi>. L'attribut <gi>n</gi> désigne le numéro de l'extrait.
+                        à l'attribut <att>type</att>. L'attribut <att>n</att> désigne le numéro de l'extrait.
                         Un même extrait se décompose en plusieurs paragraphes <gi>p</gi>, qui correspondent globalement
                         aux paragraphes du texte original.
                      </p>
@@ -527,6 +536,7 @@
                   <content>
                      <!-- l'élément listPerson contient au moins un élément person-->
                      <sequence>
+                        <!--OK (pas nécessaire d'utiliser sequence pour un seul élément)-->
                         <elementRef key="person" minOccurs="1" maxOccurs="unbounded"/>
                      </sequence>
                   </content>
@@ -575,12 +585,13 @@
                   </content>
                   <attList>
                      <!-- l'élément place a un attribut xml:id -->
-                     <attDef ident="xml:id" mode="change" usage="req"></attDef>
+                     <attDef ident="xml:id" mode="change" usage="req"/><!--OK-->
                      <attDef ident="ana" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
                      <!-- l'élément place a un attribut type qui est optionnel, et qui doit avoir les valeurs : deck (pont), hull (coque), masts (mâture) -->
                      <attDef ident="type" mode="change" usage="opt">
                         <valList mode="add" type="closed">
+                           <!--OK-->
                            <valItem ident="deck"/>
                            <valItem ident="hull"/>
                            <valItem ident="masts"/>
@@ -604,12 +615,13 @@
                <elementSpec ident="object" mode="change">
                   <attList>
                      <!-- l'élément object a un attribut xml:id -->
-                     <attDef ident="xml:id" mode="change" usage="req"></attDef>
+                     <attDef ident="xml:id" mode="change" usage="req"/><!--OK-->
                      <attDef ident="ana" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
                      <!-- l'élément object a un attribut type optionnel, qui doit avoir les valeurs : deck (pont), hull (coque), masts (mâture), ropes (cordages), sail (voile) -->
                      <attDef ident="type" mode="change" usage="opt">
                         <valList mode="add" type="closed">
+                           <!--OK-->
                            <valItem ident="deck"/>
                            <valItem ident="hull"/>
                            <valItem ident="masts"/>
@@ -620,7 +632,7 @@
                      <!-- l'élément object peut avoir un attribut subtype -->
                      <attDef ident="subtype" mode="change" usage="opt">
                         <valList mode="add" type="closed">
-                           <valItem ident="measures"/>
+                           <valItem ident="measures"/><!--OK-->
                         </valList>
                      </attDef>
                      <attDef ident="key" mode="delete"/>
@@ -631,6 +643,7 @@
                   <content>
                      <!-- L'élément listObject contient au moins un élément object -->
                      <sequence>
+                        <!--OK-->
                         <elementRef key="object" minOccurs="1" maxOccurs="unbounded"/>
                      </sequence>
                   </content>
@@ -650,6 +663,7 @@
                   <content>
                      <!-- l'élément objectIdentifier contient au moins un objectName -->
                      <sequence>
+                        <!--OK-->
                         <elementRef key="objectName" minOccurs="1" maxOccurs="unbounded"/>
                      </sequence>
                   </content>
@@ -930,7 +944,6 @@
                      <attDef ident="type" mode="delete"/>
                      <attDef ident="ana" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
-                     <attDef ident="type" mode="delete"/>
                      <attDef ident="subtype" mode="delete"/>
                   </attList>
                </elementSpec>
@@ -1248,8 +1261,9 @@
                <elementSpec ident="standOff" mode="change">
                   <gloss>index du vocabulaire</gloss>
                   <content>
-                     <!-- l'élément standOff contient un élément listPerson, un élément listPlace et un à plusieurs élément listObject -->
+                     <!-- l'élément standOff contient un élément listPerson, un élément listPlace et un à plusieurs éléments listObject -->
                      <sequence preserveOrder="true">
+                        <!--OK-->
                         <elementRef key="listPerson" minOccurs="1" maxOccurs="1"/>
                         <elementRef key="listPlace" minOccurs="1" maxOccurs="1"/>
                         <elementRef key="listObject" minOccurs="1" maxOccurs="unbounded"/>
